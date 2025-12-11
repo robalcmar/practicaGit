@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ejercicioTelegrama.Properties
+namespace ED2._3EJ2.Properties
 {
 
 

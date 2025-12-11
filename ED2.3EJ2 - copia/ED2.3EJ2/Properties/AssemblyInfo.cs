@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ejercicioTelegrama")]
+[assembly: AssemblyTitle("ED2.3EJ2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ejercicioTelegrama")]
+[assembly: AssemblyProduct("ED2.3EJ2")]
 [assembly: AssemblyCopyright("Copyright ©  2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("05da2479-0da7-4c5a-88bf-2bf81d9490e6")]
+[assembly: Guid("88535c6a-82a9-45c7-a281-804009be13c2")]
 
 // Version information for an assembly consists of the following four values:
 //

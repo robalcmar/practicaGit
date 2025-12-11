@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{05DA2479-0DA7-4C5A-88BF-2BF81D9490E6}</ProjectGuid>
+    <ProjectGuid>{88535C6A-82A9-45C7-A281-804009BE13C2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ejercicioTelegrama</RootNamespace>
-    <AssemblyName>ejercicioTelegrama</AssemblyName>
+    <RootNamespace>ED2._3EJ2</RootNamespace>
+    <AssemblyName>ED2.3EJ2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
