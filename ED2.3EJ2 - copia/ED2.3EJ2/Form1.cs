@@ -17,9 +17,10 @@ namespace ED2._3EJ2
             InitializeComponent();
         }
 
-        private void btnCalcularPrecio_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            string textoTelegrama; char tipoTelegrama = ' ';
+            string textoTelegrama;
+            char tipoTelegrama = 'o';
             int numPalabras = 0;
             double coste;
             //Leo el telegrama
@@ -30,7 +31,7 @@ namespace ED2._3EJ2
                 tipoTelegrama = 'u';
             }
             //Obtengo el número de palabras que forma el telegrama
-            numPalabras = textoTelegrama.Length;
+            numPalabras = textoTelegrama.Split(' ').Length;
             //Si el telegrama es ordinario
             if (tipoTelegrama == 'o')
             {
@@ -40,7 +41,7 @@ namespace ED2._3EJ2
                 }
                 else
                 {
-                    coste = 0.5 * numPalabras;
+                    coste = 2.5 + (0.5 * (numPalabras - 10));
                 }
             }
             else
@@ -63,6 +64,7 @@ namespace ED2._3EJ2
                 }
             }
             txtPrecio.Text = coste.ToString() + " euros";
+
         }
     }
 }
