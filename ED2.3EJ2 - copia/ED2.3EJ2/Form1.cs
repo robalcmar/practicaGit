@@ -19,6 +19,7 @@ namespace ED2._3EJ2
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //NO SE CAMBIAR EL CHECKBOX
             string textoTelegrama;
             char tipoTelegrama = 'o';
             int numPalabras = 0;
